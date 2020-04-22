@@ -1,0 +1,57 @@
+/*------ google fonts-----*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,600,700');
+
+/*------general-----*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-color{
+    background-color: #8e24aa;
+    width: 100%;
+}
+
+/*------header------*/
+
+header{
+    min-height: 120px;
+    width: 100%
+}
+
+.logo{
+    background: url("../images/smwhite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fafafa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.menu{
+   height: 100%;
+   font-size: 18px;
+   color: #fafafa;
+   padding: 5%;
+}
+
+.menu a{
+    color: #fafafa;  
+}
+
+.menu li:hover{
+    border-bottom: 2px solid #fafafa;
+}
+
+.nav-link{
+    padding: 0;
+}
