@@ -111,3 +111,23 @@ footer{
 h2 i{
     color: #8e24aa;
 }
+
+.about{
+    padding-top: 6em;
+    
+}
+
+.contact-info{
+    background-color: #eeeeee;
+    height: 475px;
+}
+
+.contact-info .key{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.contact-info .value{
+    padding-left: 20px;
+}
