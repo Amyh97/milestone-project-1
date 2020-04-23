@@ -111,8 +111,10 @@ h2 i{
 }
 
 .contact-info{
-    background-color: #eeeeee;
+    background-color: #c158dc;
     height: 475px;
+    text-align: center;
+    color: #fafafa;
 }
 
 .contact-info .key{
@@ -123,4 +125,76 @@ h2 i{
 
 .contact-info .value{
     padding-left: 20px;
+}
+
+/*------ skills and experience------*/
+
+.experience{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 100px;
+    display: inline-block;
+    float: none;
+    max-width: 33.3333333333333%;
+}
+
+.history{
+    background-color: #c158dc;
+}
+
+.work-history{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.timeline{
+    color: #fafafa;
+    padding: 4em 2em 0em 4em;
+    border-left: 1px solid;
+    position: relative;
+}
+
+.timeline:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.timeline:after{
+ width: 14px;
+ height: 14px;
+ border-radius: 14px;
+ display: block;
+ top: 2.5em;
+ position: absolute;
+ left: -6px;
+ content: '';
+ background-color: #fafafa;
+}
+
+
+.timeline h4{
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0;
+    margin:0;
+}
+
+.timeline p{
+    padding: 0;
+    margin: 0;
+}
+
+.item{
+    margin-bottom: 30px;
 }
