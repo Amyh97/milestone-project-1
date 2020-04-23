@@ -26,16 +26,7 @@ body{
     font-size: 20px;
 }
 
-section{
-    height:475px;
-}
-
 /*------header------*/
-
-header{
-    min-height: 120px;
-    width: 100%
-}
 
 .logo{
     background: url("../images/smwhite.png");
@@ -92,9 +83,10 @@ footer{
 
 .social-links a{
     color: #fafafa;
-    width: 45px;
-    height: 40px;
-    border-radius: 40px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     padding: 12px;
     transition: all 0.5s ease-in-out
     -moz-transition: all 0.5s ease-in-out;
@@ -113,7 +105,8 @@ h2 i{
 }
 
 .about{
-    padding-top: 6em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     
 }
 
