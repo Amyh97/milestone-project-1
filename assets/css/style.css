@@ -1,15 +1,33 @@
 /*------ google fonts-----*/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700');
 
 /*------general-----*/
 
 body{
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
+
 .bg-color{
     background-color: #8e24aa;
     width: 100%;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.sub-heading{
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section{
+    height:475px;
 }
 
 /*------header------*/
@@ -26,10 +44,14 @@ header{
     background-size: contain;
 }
 
+.logo a{
+    width: 100%;
+}
+
 .title{
     text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-size: 40px;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 50px;
     font-weight: 600;
     color: #fafafa;
     padding-top: 30px;
@@ -41,7 +63,8 @@ header{
    height: 100%;
    font-size: 18px;
    color: #fafafa;
-   padding: 5%;
+   padding: 6%;
+   margin-left: 40px;
 }
 
 .menu a{
@@ -54,4 +77,37 @@ header{
 
 .nav-link{
     padding: 0;
+}
+
+/*--------footer------*/
+
+footer{
+    padding: 30px;
+}
+.social-links{
+    text-align: center;
+    color: #fafafa;
+    font-size: 40px;
+}
+
+.social-links a{
+    color: #fafafa;
+    width: 45px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 12px;
+    transition: all 0.5s ease-in-out
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o- transition: all 0.5s ease-in-out;
+}
+
+.social-links a:hover{
+    background-color: #c158dc;
+}
+
+/*------- profile-----*/
+
+h2 i{
+    color: #8e24aa;
 }
