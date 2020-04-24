@@ -70,6 +70,10 @@ body{
     padding: 0;
 }
 
+.active{
+    border-bottom: 2px solid #fafafa;
+}
+
 /*--------footer------*/
 
 footer{
@@ -130,12 +134,9 @@ h2 i{
 /*------ skills and experience------*/
 
 .experience{
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 100px;
+    padding: 100px;
     display: inline-block;
     float: none;
-    max-width: 33.3333333333333%;
 }
 
 .history{
@@ -143,58 +144,52 @@ h2 i{
 }
 
 .work-history{
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
     color: #fafafa;
+    font-family: "Lato",sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.timeline{
-    color: #fafafa;
-    padding: 4em 2em 0em 4em;
-    border-left: 1px solid;
+.work{
+    padding: 4em 0em 0em 4em;
     position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+    margin-left: 12px;
 }
 
-.timeline:before{
-    content: attr(data-dates);
+.work p{
+    padding: 0;
+    margin: 0;
+}
+
+.work::before{
+    content: attr(data-date);
     position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Lato",sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-
-}
-
-.timeline:after{
- width: 14px;
- height: 14px;
- border-radius: 14px;
- display: block;
- top: 2.5em;
- position: absolute;
- left: -6px;
- content: '';
- background-color: #fafafa;
-}
-
-
-.timeline h4{
-    font-weight: 300;
-    font-size: 14px;
-    padding: 0;
-    margin:0;
-}
-
-.timeline p{
+    font-size: 1em;
     padding: 0;
     margin: 0;
 }
 
-.item{
-    margin-bottom: 30px;
+.work::after{
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.5em;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content: '';
+    background-color: #fafafa;
+    
+}
+
+.timeline{
+    margin-bottom: 25px;
 }
