@@ -3,7 +3,7 @@
 
 /*------general-----*/
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
@@ -11,16 +11,27 @@ body{
     font-weight: 300;
 }
 
-.bg-color{
+.bg-color {
     background-color: #8e24aa;
     width: 100%;
 }
 
-.upper{
+.upper {
     text-transform: uppercase;
 }
 
-.sub-heading{
+.title {
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #8e24aa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.sub-heading {
     font-family: "Lato",sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -28,64 +39,55 @@ body{
 
 /*------header------*/
 
-.logo{
+.logo {
     background: url("../images/smwhite.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-.logo a{
+.logo a {
     width: 100%;
 }
 
-.title{
-    text-align: center;
-    font-family: "Dancing Script", sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    color: #fafafa;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-}
 
-.menu{
-   height: 100%;
+.menu {
    font-size: 18px;
    color: #fafafa;
    padding: 6%;
    margin-left: 40px;
 }
 
-.menu a{
+.menu a {
     color: #fafafa;  
 }
 
-.menu li:hover{
+.menu li:hover {
     border-bottom: 2px solid #fafafa;
 }
 
-.nav-link{
+.nav-link {
     padding: 0;
 }
 
-.active{
+.active {
     border-bottom: 2px solid #fafafa;
 }
 
 /*--------footer------*/
 
-footer{
+footer {
     padding: 30px;
+    position: fixed;
+    bottom: 0;
 }
-.social-links{
+.social-links {
     text-align: center;
     color: #fafafa;
     font-size: 40px;
 }
 
-.social-links a{
+.social-links a {
     color: #fafafa;
     display: inline-block;
     width: 80px;
@@ -98,58 +100,59 @@ footer{
     -o- transition: all 0.5s ease-in-out;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     background-color: #c158dc;
 }
 
 /*------- profile-----*/
 
-h2 i{
+h2 i {
     color: #8e24aa;
 }
 
-.about{
+.profile-text{
+    padding: 100px;
+}
+
+.profile-text p{
+    font-size: 18px;
+}
+
+.about {
     padding-top: 2em;
     padding-bottom: 2em;
     
 }
 
-img{
-    max-width: 30%;
-    height: auto;
-    padding-top: 10px;
+img {
+    max-width: 100%;
+    overflow: hidden;
 }
 
-.contact-info{
+.contact-info {
     background-color: #c158dc;
     height: 475px;
     text-align: center;
     color: #fafafa;
 }
 
-.contact-info .key{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-weight: 500;
-}
-
-.contact-info .value{
+.contact-info .value {
     padding-left: 20px;
 }
 
 /*------ skills and experience------*/
 
-.experience{
+.experience {
     padding: 100px;
     display: inline-block;
     float: none;
 }
 
-.history{
+.history {
     background-color: #c158dc;
 }
 
-.work-history{
+.work-history {
     color: #fafafa;
     font-family: "Lato",sans-serif;
     font-size: 30px;
@@ -157,7 +160,7 @@ img{
     text-align: center;
 }
 
-.work{
+.work {
     padding: 4em 0em 0em 4em;
     position: relative;
     color: #fafafa;
@@ -165,12 +168,12 @@ img{
     margin-left: 12px;
 }
 
-.work p{
+.work p {
     padding: 0;
     margin: 0;
 }
 
-.work::before{
+.work::before {
     content: attr(data-date);
     position: absolute;
     left: 2.5em;
@@ -183,7 +186,7 @@ img{
     margin: 0;
 }
 
-.work::after{
+.work::after {
     width: 14px;
     height: 14px;
     display: block;
@@ -196,7 +199,7 @@ img{
     
 }
 
-.timeline{
+.timeline {
     margin-bottom: 25px;
 }
 
@@ -205,24 +208,24 @@ img{
     color: #8e24aa;
 }
 
-.front-end{
+.front-end {
     border-right: 5px solid #8e24aa;
 }
-.front-end p, .back-end p{
+.front-end p, .back-end p {
     padding: 3em;
 }
-.front-end h2, .back-end h2{
+.front-end h2, .back-end h2 {
     text-align: center;
     padding-top: 20px;
 }
 
-.front-end h2 i, .back-end h2 i{
+.front-end h2 i, .back-end h2 i {
     font-size: 24px;
     letter-spacing: 5px;
 }
 
-@media (max-width:600px){
-    .front-end{
+@media (max-width:600px) {
+    .front-end {
         border-right: none;
         border-bottom: 3px solid #8e24aa;
         padding: 0;
