@@ -193,3 +193,27 @@ h2 i{
 .timeline{
     margin-bottom: 25px;
 }
+
+/*-------- portfolio--------*/
+.portfolio a{
+    color: #8e24aa;
+}
+
+.front-end{
+    border-right: 5px solid #8e24aa;
+}
+.front-end p, .back-end p{
+    padding: 3em;
+}
+.front-end h2, .back-end h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.front-end h2 i, .back-end h2 i{
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+
+
