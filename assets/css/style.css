@@ -51,32 +51,37 @@ body {
 .logo a {
     width: 100%;
     height: auto;
-    position: relative;
+    
 }
 
 
-.menu {
-   font-size: 18px;
-   color: #fafafa;
-   margin: 0;
-   padding: 0;
-   display: inline;
-   position: relative;
-}
-
-.menu li {
-    color: #fafafa;  
-}
-
-.menu li:hover, active {
+.navbar-inverse .navbar-nav > li > a:hover, .live {
     border-bottom: 2px solid #fafafa;
+    background-color: #8e24aa;
 }
 
-.navbar-header {
-    display: inline;
+.navbar-inverse .navbar-nav > li > a {
+    color: #fafafa;
+    background-color: #8e24aa;
+    font-family: "Lato",sans-serif;
+    letter-spacing: 2px;
 }
 
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #8e24aa;
+}
 
+.navbar-inverse .navbar-collapse , .navbar-toggle {
+    border: none;
+}
+
+.navbar .container-fluid {
+    justify-content: end;
+}
+
+.navbar .container-fluid .logo {
+    justify-content: left;
+}
 
 /*--------footer------*/
 
