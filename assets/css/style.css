@@ -44,35 +44,39 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    width: 50px;
+    display: inline;
 }
 
 .logo a {
     width: 100%;
+    height: auto;
+    position: relative;
 }
 
 
 .menu {
    font-size: 18px;
    color: #fafafa;
-   padding: 6%;
-   margin-left: 40px;
+   margin: 0;
+   padding: 0;
+   display: inline;
+   position: relative;
 }
 
-.menu a {
+.menu li {
     color: #fafafa;  
 }
 
-.menu li:hover {
+.menu li:hover, active {
     border-bottom: 2px solid #fafafa;
 }
 
-.nav-link {
-    padding: 0;
+.navbar-header {
+    display: inline;
 }
 
-.active {
-    border-bottom: 2px solid #fafafa;
-}
+
 
 /*--------footer------*/
 
@@ -126,7 +130,9 @@ h2 i {
 
 img {
     max-width: 100%;
+    display: block;
     overflow: hidden;
+    height: auto;
 }
 
 .contact-info {
