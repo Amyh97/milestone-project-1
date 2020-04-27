@@ -14,6 +14,7 @@ body {
 .bg-color {
     background-color: #8e24aa;
     width: 100%;
+    border-radius: 0;
 }
 
 .upper {
@@ -26,7 +27,7 @@ body {
     font-size: 40px;
     font-weight: 600;
     color: #8e24aa;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     
 }
@@ -158,29 +159,36 @@ h2 i {
 }
 
 .about {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 10px;
     
 }
 
 img {
     max-width: 100%;
-    display: block;
-    overflow: hidden;
-    height: auto;
 }
+
+.photo {
+    height: 50%;
+    overflow: hidden;
+}
+
+
 
 .contact-info {
     background-color: #c158dc;
-    height: 475px;
     text-align: center;
     color: #fafafa;
+    
 }
 
 .contact-info .value {
     padding-left: 20px;
 }
 
+.value {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
 /*------ skills and experience------*/
 
 .experience {
