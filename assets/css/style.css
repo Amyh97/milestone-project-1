@@ -83,6 +83,36 @@ body {
     justify-content: left;
 }
 
+.navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    left: 10%;
+    position: absolute;
+    float: none;
+    bottom: 3%;
+}
+
+@media (min-width:600px) {
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    left: 5%;
+    position: absolute;
+    float: none;
+    bottom: 0%;
+}
+
+
+@media (max-width:992px) {
+    .navbar-toggle {
+      display:block;
+    }
+  
+}
+
+@media (min-width:992px) {
+  #myNavbar {
+    display: block; 
+  }
+}
 /*--------footer------*/
 
 footer {
