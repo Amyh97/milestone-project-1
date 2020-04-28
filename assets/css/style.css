@@ -264,39 +264,39 @@ img {
 }
 
 .front-end {
-    border-right: 5px solid #8e24aa;
+    border-right: 2px solid #e0e0e0;
 }
 .front-end p, .back-end p {
-    padding: 3em;
+    padding: 1em;
 }
 .front-end h2, .back-end h2 {
     text-align: center;
     padding-top: 20px;
+    color: #c158dc;
 }
 
 .front-end h2 i, .back-end h2 i {
     font-size: 24px;
     letter-spacing: 5px;
+    color: #8e24aa;
 }
 
 @media (max-width:600px) {
     .front-end {
         border-right: none;
-        border-bottom: 3px solid #8e24aa;
+        border-bottom: 2px solid #e0e0e0;
         padding: 0;
         margin: 0;
     }
 }
 
-
-/*------------ working on mobile ----*/
-
-@media (max-width:600px) {
-
-.photo img {
-    height: 50%;
-    overflow: hidden;
-    max-width: 100%;
-    width: auto;
+.front-end img, .back-end img {
+    width: 50%;
+    height: auto;
+    display: inline;
+    padding: 0;
+    float: none;
 }
-}
+
+
+
