@@ -32,10 +32,11 @@ body {
     
 }
 
-.sub-heading {
+.sub-heading-white {
     font-family: "Lato",sans-serif;
     font-weight: 500;
     font-size: 20px;
+    color: #fafafa;
 }
 
 /*------header------*/
@@ -117,7 +118,7 @@ body {
 /*--------footer------*/
 
 footer {
-    padding: 30px;
+    padding:5px;
     position: fixed;
     bottom: 0;
 }
@@ -147,7 +148,7 @@ footer {
 /*------- profile-----*/
 
 h2 i {
-    color: #8e24aa;
+    color: #fafafa;
 }
 
 .profile-text{
@@ -188,6 +189,11 @@ img {
 .value {
     margin-bottom: 10px;
     font-size: 18px;
+}
+
+.card {
+    background-color: #c158dc;
+    color: #fafafa;
 }
 /*------ skills and experience------*/
 
@@ -280,4 +286,17 @@ img {
         padding: 0;
         margin: 0;
     }
+}
+
+
+/*------------ working on mobile ----*/
+
+@media (max-width:600px) {
+
+.photo img {
+    height: 50%;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+}
 }
