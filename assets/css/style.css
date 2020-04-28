@@ -215,38 +215,56 @@ img {
 /*------ skills and experience------*/
 
 .experience {
-    padding: 100px;
     display: inline-block;
     float: none;
 }
 
-.history {
-    background-color: #c158dc;
+.main-timeline {
+  position: relative;
+  clear: both;
 }
 
-.work-history {
-    color: #fafafa;
-    font-family: "Lato",sans-serif;
+.main-timeline .timeline-content {
+    color: #000;
+    text-align: center;
+    min-height: 125px;
+    padding: 20px 10px 20px 35px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    display: block;
+    position: relative;
+}
+
+.main-timeline .icon {
+    color: #fff;
+    background-color: #8e24aa;
+    font-size: 37px;
+    line-height: 65px;
+    height: 75px;
+    width: 75px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: -38px;
+    top: 50%;
+}
+
+.timeline .icon {
+   color: #fafafa;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #8e24aa;
     font-size: 30px;
-    margin-bottom: 10px;
+    line-height: 25px;
     text-align: center;
 }
 
-.work {
-    padding: 4em 0em 0em 4em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-    margin-left: 12px;
-}
-
-.work p {
-    padding: 0;
-    margin: 0;
-}
-
-.work::before {
-    content: attr(data-date);
+.timeline::before {
+    content: '';
     position: absolute;
     left: 2.5em;
     top: 3em;
@@ -258,22 +276,29 @@ img {
     margin: 0;
 }
 
-.work::after {
-    width: 14px;
-    height: 14px;
+.timeline::after {
     display: block;
     top: 2.5em;
     position: absolute;
     left: -6px;
     border-radius: 50%;
     content: '';
-    background-color: #fafafa;
-    
+        
 }
 
-.timeline {
-    margin-bottom: 25px;
+.main-timeline div:nth-child(odd) {
+    float: left;
+    text-align: left;
+    clear: both;
 }
+
+.main-timeline div:nth-child(even) {
+    float: right;
+    text-align: right;
+    clear: both;
+    margin: 10px;
+}
+
 
 /*-------- portfolio--------*/
 .portfolio a{
