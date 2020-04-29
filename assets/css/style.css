@@ -217,6 +217,8 @@ img {
 .experience {
     display: inline-block;
     float: none;
+    height: 100%;
+    padding: 10px;
 }
 
 .main-timeline {
@@ -226,13 +228,14 @@ img {
 
 .main-timeline .timeline-content {
     color: #000;
-    text-align: center;
+    text-align: left;
     min-height: 125px;
-    padding: 20px 10px 20px 35px;
+    padding: 15px 35px 15px 35px;
     border-radius: 15px;
     border: 2px solid #000;
     display: block;
     position: relative;
+    margin-bottom: 0;
 }
 
 .main-timeline .icon {
@@ -248,13 +251,14 @@ img {
     position: absolute;
     left: -38px;
     top: 50%;
+    display: inline-block;
 }
 
 .timeline .icon {
    color: #fafafa;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     padding: 12px;
     background-color: #8e24aa;
@@ -287,18 +291,30 @@ img {
 }
 
 .main-timeline div:nth-child(odd) {
-    float: left;
-    text-align: left;
+    float:right;
+    text-align: right;
     clear: both;
 }
 
 .main-timeline div:nth-child(even) {
-    float: right;
-    text-align: right;
+    float: left;
     clear: both;
-    margin: 10px;
+    text-align: left;
+    margin: 5px;
+    
 }
 
+.main-timeline .timeline:nth-child(even) .job,{padding: 10px;}
+.main-timeline .timeline:nth-child(even) .icon {
+    right: -39px;
+    left: auto;
+}
+
+.test p, test. h2 {
+    text-align: left !important;
+    padding-right: 0;
+    margin-right: 0;
+}
 
 /*-------- portfolio--------*/
 .portfolio a{
