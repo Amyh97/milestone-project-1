@@ -226,13 +226,14 @@ img {
     font-size: 40px;
     font-weight: 600;
     color: #8e24aa;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
     margin: 0;
     
 }
 .spacing {
     padding: 25px;
     margin-right: 50px;
+    margin-left: 10px;
 }
 .experience {
     padding: 3em;
@@ -242,6 +243,20 @@ img {
 .main-timeline {
   position: relative;
   clear: both;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+}
+
+.timeline{
+   margin: 0;
+   padding: 0;
+
+}
+
+.main-timeline .timeline:nth-child(2n) .job {
+    padding: 0 10px 0 10px;
+    margin: 0;
 }
 
 .main-timeline .timeline-content {
@@ -305,6 +320,7 @@ img {
     left: -6px;
     border-radius: 50%;
     content: '';
+    
         
 }
 
@@ -312,12 +328,13 @@ img {
     float:right;
     text-align: center;
     clear: both;
+    
 }
 
 .main-timeline div:nth-child(even) {
     float: left;
     clear: both;
-    text-align: center
+    text-align: center;
     
 }
 
@@ -325,13 +342,16 @@ img {
 .main-timeline .timeline:nth-child(even) .icon {
     right: -39px;
     left: auto;
+
 }
 
 .test p, .test h2 {
     text-align: left !important;
     padding-right: 0;
     margin-right: 0;
+   
 }
+
 
 /*-------- portfolio--------*/
 .portfolio a{
@@ -361,7 +381,7 @@ img {
         border-right: none;
         border-bottom: 2px solid #e0e0e0;
         padding: 0;
-        margin: 0;
+        margin: 5px;
     }
 }
 
@@ -411,7 +431,7 @@ img {
     width: 100%;
 }
 
-/*----- mobile view -----*/
+/*----- responsive design -----*/
 @media only screen and (max-width:600px){
     img {
         vertical-align: middle;
@@ -431,9 +451,26 @@ img {
         margin-bottom: 0;
     }
 
-    footer {
-        padding: 0;
-        position: fixed;
-        bottom: 0;
+    .alt-footer {
+       position: relative;
+        margin-top: 5px;
+    }
+
+    .form {
+        margin: 15px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .timeline {
+        margin: 2px 15px 2px 15px;
+    }
+}
+
+@media (min-width:900px) {
+    .timeline {
+        margin-bottom: -20px;
+    
     }
 }
