@@ -119,6 +119,7 @@ body {
     float: none;
     bottom: 0%;
 }
+}
 
 
 @media (max-width:992px) {
@@ -153,10 +154,10 @@ footer {
     height: 80px;
     border-radius: 50%;
     padding: 12px;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-    -o- transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .social-links a:hover {
@@ -215,6 +216,8 @@ img {
     background-color: #c158dc;
     color: #fafafa;
 }
+
+
 /*------ skills and experience------*/
 
 .title-skill {
@@ -318,13 +321,13 @@ img {
     
 }
 
-.main-timeline .timeline:nth-child(even) .job,{padding: 10px;}
+.main-timeline .timeline:nth-child(even) .job {padding: 10px;}
 .main-timeline .timeline:nth-child(even) .icon {
     right: -39px;
     left: auto;
 }
 
-.test p, test. h2 {
+.test p, .test h2 {
     text-align: left !important;
     padding-right: 0;
     margin-right: 0;
@@ -401,4 +404,36 @@ img {
 
 .btn-bg-color {
     background-color: #fff;
+}
+
+
+img {
+    width: 100%;
+}
+
+/*----- mobile view -----*/
+@media only screen and (max-width:600px){
+    img {
+        vertical-align: middle;
+        border-style: none;
+        width: 100%;
+    }
+
+    .contact-info, .card {
+        background-color: #c158dc;
+        color: #fafafa;
+        text-align: center;
+        padding-bottom: 0;
+        height: 50%;
+    }
+
+    .title{
+        margin-bottom: 0;
+    }
+
+    footer {
+        padding: 0;
+        position: fixed;
+        bottom: 0;
+    }
 }
