@@ -75,6 +75,7 @@ body {
 
 #my-menu ul li {
   padding: 8px;
+  color: #fafafa;
 }
 
 #my-menu ul li a:hover, .live {
