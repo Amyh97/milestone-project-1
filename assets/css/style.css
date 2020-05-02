@@ -60,12 +60,11 @@ body {
 /*------header------*/
 
 .logo {
-    background: url("../images/smwhite.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 50px;
-    display: inline;
+    display: inline-block;
+    height: auto;
+    max-width: 50px !important;
+    margin-left: 0;
+
 }
 
 .logo a {
@@ -74,64 +73,35 @@ body {
     
 }
 
-
-.navbar-inverse .navbar-nav > li > a:hover, .live {
-    border-bottom: 2px solid #fafafa;
-    background-color: #8e24aa;
+#my-menu ul li {
+  padding: 8px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+#my-menu ul li a:hover, .live {
+    border-bottom: 2px solid #fafafa;
+    background-color: #8e24aa;
+    text-decoration: none;
+}
+
+#my-menu ul li a {
     color: #fafafa;
     background-color: #8e24aa;
     font-family: "Lato",sans-serif;
     letter-spacing: 2px;
 }
 
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #8e24aa;
-}
 
-.navbar-inverse .navbar-collapse , .navbar-toggle {
-    border: none;
-}
 
-.navbar .container-fluid {
-    justify-content: end;
-}
-
-.navbar .container-fluid .logo {
-    justify-content: left;
-}
-
-.navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
-    left: 10%;
-    position: absolute;
-    float: none;
-    bottom: 3%;
-}
 
 @media (min-width:600px) {
-  .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
-    left: 5%;
-    position: absolute;
-    float: none;
-    bottom: 0%;
-}
+  .navbar-toggler {
+    margin-left: 90%
+  }
 }
 
-
-@media (max-width:992px) {
-    .navbar-toggle {
-      display:block;
-    }
-  
-}
-
-@media (min-width:992px) {
-  #myNavbar {
-    display: block; 
+@media (max-width:600px){
+  .navbar-toggler{
+    margin-left: 80%
   }
 }
 /*--------footer------*/
