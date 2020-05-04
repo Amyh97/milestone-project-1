@@ -355,6 +355,7 @@ img {
 
 .front-end {
     border-right: 2px solid #e0e0e0;
+    padding-right: 5px;
 }
 .front-end p, .back-end p {
     padding: 1em;
@@ -386,6 +387,15 @@ img {
     display: inline;
     padding: 0;
     float: none;
+}
+
+.back-end img {
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.front-end img {
+    padding-right: 10px;
 }
 
 /*------ contact me -------*/
