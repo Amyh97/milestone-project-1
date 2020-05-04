@@ -411,9 +411,13 @@ img {
 }
 
 .form {
-    background-color: #c158dc;
     border: 1px solid #8e24aa;
     border-radius: 4px;
+    padding: 10px;
+}
+
+.form textarea {
+    margin-top: 5px;
 }
 
 .my-btn {
@@ -421,6 +425,7 @@ img {
     color: #8e24aa;
     font-family: "Lato", sans-serif;
     font-size: 20px;
+    align-items: center;
 }
 
 #description {
@@ -463,6 +468,7 @@ img {
 
     .form {
         margin: 15px;
+        padding-top: 15px;
     }
 
 }
@@ -500,4 +506,9 @@ img {
         padding-bottom: 0;
         margin-bottom: 0;
     }
+
+    .form {
+        border: none;
+        
 }
+
