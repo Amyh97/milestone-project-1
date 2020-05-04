@@ -180,6 +180,13 @@ img {
     
 }
 
+@media (min-width:600px) and (max-width:900px) {
+    .about {
+        padding-top: 10%;
+        padding-bottom: 8%;
+    }
+}
+
 .contact-info .value {
     padding-left: 20px;
 }
@@ -211,18 +218,20 @@ img {
     font-size: 40px;
     font-weight: 600;
     color: #8e24aa;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 7px;
     margin: 0;
     
 }
 .spacing {
-    padding: 25px;
+    padding: 53px;
     margin-right: 50px;
     margin-left: 10px;
 }
 .experience {
-    padding: 3em;
+    padding: 2em;
     height: 100%;
+    
 }
 
 .main-timeline {
@@ -240,15 +249,15 @@ img {
 }
 
 .main-timeline .timeline:nth-child(2n) .job {
-    padding: 0 10px 0 10px;
+    padding: 0 3px 0 3px;
     margin: 0;
 }
 
 .main-timeline .timeline-content {
     color: #000;
     text-align: center;
-    min-height: 115px;
-    padding: 10px 50px 10px 50px;
+    min-height: 100px;
+    padding: 5px 25px 5px 25px;
     border-radius: 15px;
     border: 2px solid #000;
     display: block;
@@ -283,6 +292,7 @@ img {
     font-size: 30px;
     line-height: 25px;
     text-align: center;
+    margin: 0;
 }
 
 .timeline::before {
@@ -451,11 +461,33 @@ img {
     .timeline {
         margin: 2px 15px 2px 15px;
     }
+
+    .spacing {
+        padding: 2em;
+        margin-right: 60px;
+        margin-left: 10px
+    }
+
+    .title-skill {
+        padding-top: 15px;
+    }
 }
 
 @media (min-width:900px) {
     .timeline {
         margin-bottom: -20px;
     
+    }
+}
+
+@media (max-width:600px) {
+    .main-timeline {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .experience {
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }
