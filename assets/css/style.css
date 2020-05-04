@@ -356,6 +356,8 @@ img {
 .front-end {
     border-right: 2px solid #e0e0e0;
     padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .front-end p, .back-end p {
     padding: 1em;
@@ -377,7 +379,7 @@ img {
         border-right: none;
         border-bottom: 2px solid #e0e0e0;
         padding: 0;
-        margin: 5px;
+        margin: 15px;
     }
 }
 
