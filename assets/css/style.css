@@ -10,6 +10,7 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 300;
+    overflow: auto;
 }
 
 .bg-color {
@@ -92,9 +93,6 @@ body {
 
 }
 
-
-
-
 @media (min-width:600px) {
   .navbar-toggler {
     margin-left: 90%
@@ -105,6 +103,15 @@ body {
   .navbar-toggler{
     margin-left: 80%
   }
+
+}
+
+@media (max-width:900px){
+    .logo {
+        position: absolute;
+        left:15px;
+        top:3px;
+    }
 }
 /*--------footer------*/
 
@@ -142,6 +149,8 @@ footer {
 
 h2 i {
     color: #fafafa;
+    font-size: 32px;
+    padding-right: 20px;
 }
 
 .profile-text{
