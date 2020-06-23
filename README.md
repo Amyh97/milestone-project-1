@@ -71,7 +71,6 @@ The final page of my website is the contact page, I have put this as the last pa
 -	To help me create the grid layout, header, and other elements such as the timeline, form and the accordion I used [Bootstrap 4](https://getbootstrap.com/) (therefore I used Popper and jQuery that comes with it).
 -	I embellished the site using icons from [Fontawsome](https://fontawesome.com/), these were used in my header, footer and in the main section of my pages. I was able to use them to decorate my pages as well as use them as functioning links.
 -	I used Lato and Dancing Script from [Google Fonts](https://fonts.google.com/) to style my project. I used one for the headings and one for the text. By only using two fonts I have added continuity to my pages. 
--	I have used [repl.it](https://repl.it/) to create the webpage for my external links for the backend projects that I have not yet completed. 
 -	I used [Material Design](https://material.io/) to help pick my colour scheme and find the hex codes for the colours that I used. Not only did it help me find the hex code for the main colour that I wanted, but it also gave the hex codes for a shade darker and lighter so that I could vary the website, while still having that consistency.
 -	In order to create the best UX possible I did not want users to have to wait a long time for the browser to load large image files, so I used [Tiny PNG](https://tinypng.com/) to compress my images so browsers only had to deal with smaller file sizes, therefore load faster. 
 -	Once I had finished coding I used this [HTML Formatter](https://htmlformatter.com/) to ensure that my code was properly laid out and easier to read. 
@@ -79,13 +78,14 @@ The final page of my website is the contact page, I have put this as the last pa
 
 
 ## Testing
-The first step that I took in testing my code was to use the W3C Validators for both HTML and CSS. Once I was sure the code was valid and correct, I moved on to testing it from a user perspective. First, I checked that all external links went to the correct websites and that the internal links on the navbar went to the correct pages. Once I had checked the links went to the correct location, I made sure that ant animation/ hover pseudo classes worked as intended. After these had all been tested, I turned to my user stories to check that the site preformed as users would want. 
+The first step that I took in testing my code was to use the W3C Validators for both HTML and CSS. Once I was sure the code was valid and correct, I moved on to testing it from a user perspective. First, I checked that all external links went to the correct websites and that the internal links on the navbar went to the correct pages. Once I had checked the links went to the correct location, I made sure that any animation/ hover pseudo classes worked as intended. After these had all been tested, I turned to my user stories to check that the site preformed as users would want. 
 - As a user I was able to navigate the site by using an intuitive navbar that collapses into a hamburger button on smaller screens. 
-- As someone who would want to work with the developer, I was able to click on links that took me to other projects.
+- As someone who would want to work with the developer, I was able to read about work done and click on links that took me to other projects.
 - As a potential employer I was able to see a clear breakdown of work history in the timeline. 
 - As someone wanting to contact the developer, I was able to connect with them on LinkedIn, GitHub and Skype by using the links in the footer provided on each page. 
-- As someone thinking about working with the developer, I was able to see where they are based, contact information and a bit about them on the profile page. 
+- As someone thinking about working with the developer, I was able to see where they are based, contact information and a bit about them on the profile page. In addition I was able to see why they had decided to start this type of work. 
 - As a recruiter or employer, I was able to see a PDF of the developer’s CV, which opens in a separate tab, as not to lose the main site. 
+- As someone interested in working with the developer, I was not able to connect with them by filling out a form as the project was written using HTML and CSS, therefore not the JavaScript needed to add this functionality. 
 
 After going through my user stories and checked the project suited their needs and requirements I loaded my deployed website on different devices, (mobile, laptop and iPad) as I was finding that the mobile view in Firefox developer tools did not always act the same as the phones did, but I wanted to ensure the site looked good on different size viewports.
 ## Issues and Resolutions
